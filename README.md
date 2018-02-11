@@ -4,8 +4,10 @@ A Gatsby starter with a set of strict linting and auto-formatting rules.
 
 Features:
 
-* A set of strict linting rules (based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript))
-  * `lint` script
+* A set of strict linting rules and scripts
+  * `lint` runs every linter
+  * `lint:es` lints `js` and `jsx` files (based on the [Airbnb JavaScript Style Guide][])
+  * `lint:style` lints `scss` files (based on [stylelint-config-recommended-scss][] and [stylelint-config-idiomatic-order][])
 * Encourage automatic code formatting
   * `format` script
 * Prefer using [Yarn](https://yarnpkg.com) for package management
@@ -21,6 +23,10 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 ```
 gatsby new gatsby-example-site https://github.com/kripod/gatsby-starter-strict
 ```
+
+[airbnb javascript style guide]: https://github.com/airbnb/javascript
+[stylelint-config-recommended-scss]: https://github.com/kristerkari/stylelint-config-recommended-scss
+[stylelint-config-idiomatic-order]: https://github.com/ream88/stylelint-config-idiomatic-order
 
 ## Deploy
 
