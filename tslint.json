@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-react-a11y",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "prettier": true,
+    "jsx-no-lambda": false
+  }
+}

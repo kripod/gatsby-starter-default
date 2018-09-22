@@ -1,0 +1,11 @@
+{
+  // Enable automatic file formatting and fixing
+  "editor.formatOnSave": true,
+  "tslint.autoFixOnSave": true,
+
+  // Using Prettier for TS is unnecessary as TSLint already handles formatting
+  "prettier.disableLanguages": ["typescript", "typescriptreact"],
+
+  // Disable built-in tools for which there are better alternatives available
+  "typescript.format.enable": false
+}
